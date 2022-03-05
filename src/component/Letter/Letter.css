@@ -3,7 +3,17 @@
   margin: 10px;
   background-color: peachpuff;
   border-radius: 15px;
-  box-shadow: ;
+  box-shadow: 0px 15px 25px -11px rgba(39, 32, 18, 0.658);
+}
+
+.letter__img {
+  height: 200px;
+}
+
+.sound__btn {
+  background: rgb(216, 107, 13);
+  font-family: "Chicle Regular";
+  cursor: pointer;
 }
 
 .flexContainer {
@@ -20,5 +30,14 @@ ul {
 
 .word {
   font-size: 25px;
+  display: block;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.word:hover {
+  border: rgb(216, 107, 13) 1px solid;
+  cursor: pointer;
 }
 /* a Change */

@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Chicle Regular";
+  src: url(./component/fonts/Chicle-Regular.ttf) format("truetype");
+}
+
 .app {
   background-color: peachpuff;
+}
+
+body {
+  font-family: "Chicle Regular";
+  font-size: 16px;
+}
+
+li {
+  color: #8b4513;
+}
+
+p {
+  color: white;
+}
+
+button {
+  color: white;
 }
