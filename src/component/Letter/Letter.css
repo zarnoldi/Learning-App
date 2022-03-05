@@ -3,6 +3,7 @@
   margin: 10px;
   background-color: peachpuff;
   border-radius: 15px;
+  box-shadow: ;
 }
 
 .flexContainer {
@@ -20,3 +21,4 @@ ul {
 .word {
   font-size: 25px;
 }
+/* a Change */
