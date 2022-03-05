@@ -1,7 +1,11 @@
-const Letter = () => {
+import "./Letter.css";
+
+const Letter = (props) => {
+  const letter = props.letter;
+  console.log("object");
   return (
     <>
-      <h1>Letter</h1>
+      <div className="card">{letter}</div>
     </>
   );
 };
