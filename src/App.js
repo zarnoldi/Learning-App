@@ -7,9 +7,9 @@ import HomeArea from "./component/HomeArea/HomeArea";
 
 // Create the Navbar - contains App Name and menu options - G
 
-// Create Letters Component which has all the letters - DOING
+// Create Letters Component which has all the letters - Done
 
-// Create Letter Componet > which contains displays the letter card, which when click plays the audio and when clicked displays a list of words begining with the letter - N
+// Create Letter Componet > which contains displays the letter card, which when click plays the audio and when clicked displays a list of words begining with the letter -
 
 // Create a Word list  which populates with words when a letter Card is clicked and plays the word Audio - Table - J
 
@@ -21,9 +21,9 @@ import HomeArea from "./component/HomeArea/HomeArea";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <HomeArea />
-    </>
+    </div>
   );
 }
 

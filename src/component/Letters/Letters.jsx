@@ -5,13 +5,14 @@ import "./Letters.css";
 const Letters = () => {
   const lettersData = useSelector((state) => state);
 
+  const keys = Object.keys(lettersData.letters);
+
   return (
     <div className="container">
-      {lettersData.letters.map((letter) => {
-        console.log("object");
+      {keys.map((letter) => {
         return (
           <div key={letter.letterID}>
-            <Letter letter={letter.letterName} />
+            <Letter letter={lettersData.letters[letter]} />
           </div>
         );
       })}
